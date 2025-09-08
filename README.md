@@ -23,3 +23,15 @@ expo start
 
 npm run start   # Start development server
 npm run test    # Run tests
+
+# Install Expo CLI
+npm install -g expo-cli
+git clone https://github.com/khorsadalam558-cloud/Vibeshare.git
+cd Vibeshare
+npm install
+expo build:android
+# Login to Expo if asked
+# Download the generated .apk file
+expo build:ios
+# Login to Expo & Apple Developer account
+# Download the generated .ipa file
